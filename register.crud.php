@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/style.css">
 </head>
-<body class='container: w-25 pl-5 shadow   m-5 mx-auto g-3 '>
+<body class="container: w-25 pl-5 shadow   m-5 mx-auto g-3 ">
 <form action="process/register.php" method="POST" class="mt-5 shadow bg-light  ">
 <h1 ex-auto class="btn-info text-white fw-bold ">Signup</h1>
 
@@ -42,7 +42,7 @@
  
   
   <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
-  <input type="submit" class="btn btn-warning mt-2 mb-2 fs-5 text-white fw-bold mx-auto " value="Submit" name="submit">
+  <input type="submit" class="btn btn-warning ml-2 mb-2 fs-5 text-white fw-bold mx-auto " value="Submit" name="submit">
   <p mr-5><i><mark><b>Already have an account?</b></mark>.....</i> <a href="views/login.php" class="fs-4">login</a></p>
 </form>
     
