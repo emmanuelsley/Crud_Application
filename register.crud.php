@@ -20,21 +20,21 @@
   </div>
 
   <div  class="field">
-  <div class="container" mb-3 ml-5 g-3 >
+  <div class="container mb-1 ml-5 g-3 ">
     <label for="uname" class="form-label text-danger fw-bold"><strong>User name :</strong></label>
     <input type="text" name= "uname" class="form-control" id="uname" placeholder="">
   </div>
   </div>
 
   <div  class="field">
-  <div class="container" mb-3>
+  <div class="container">
     <label for="email" class="form-label text-danger fw-bold"><strong>Email :</strong></label>
     <input type="email" name="email" id="email" class="form-control" placeholder="" >
   </div>
   </div>
 
   <div  class="field">
-  <div class="container" mb-3>
+  <div class="container mb-3">
     <label for="password" class="form-label text-danger fw-bold"><strong>Password :</strong></label>
     <input type="password" name="password" class="form-control" id="password" placeholder="">
   </div>
@@ -42,7 +42,7 @@
  
   
   <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
-  <input type="submit" class="btn btn-warning mt-2 mb-2 fs-5 text-white fw-bold " value="Submit" name="submit">
+  <input type="submit" class="btn btn-warning mt-2 mb-2 fs-5 text-white fw-bold mx-auto " value="Submit" name="submit">
   <p mr-5><i><mark><b>Already have an account?</b></mark>.....</i> <a href="views/login.php" class="fs-4">login</a></p>
 </form>
     
