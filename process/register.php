@@ -11,13 +11,13 @@ $password = $_POST['password'];
 // validation steps
 
 if(!$fname){
-    header('location:../register.crud.php?error=Firstname is required');
+    header('location:../views/signup.php?error=Firstname is required');
     exit();
 }else if(!$uname){
-header('location:../register.crud.php?error=Username is required');
+header('location:../views/signup.php?error=Username is required');
      exit();
 }else if(!$email){
-    header('location:../register.crud.php?email is required');
+    header('location:../views/signup.php?email is required');
      exit();
 }
 else{
@@ -26,7 +26,7 @@ else{
     $result = mysqli_query($conn, $query);
 
     if(mysqli_num_rows($result)>0){
-        header('location:../register.crud.php?error= Your email "' .$email. '"has already registered!');
+        header('location:../views/signup.php?error= Your email "' .$email. '"has already registered!');
 
     }else {
         $sql= "INSERT INTO users (first_name,user_name,email,password)
@@ -37,7 +37,7 @@ else{
             header('location:../views/login.php');
             exit();
         }else{
-            header('location:../register.crud.php?error= something went wrong!');
+            header('location:../views/signup.php?error= something went wrong!');
             exit();
         }
     }
