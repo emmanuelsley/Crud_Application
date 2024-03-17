@@ -43,7 +43,7 @@
   
   <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
   <input type="submit" class="btn btn-warning mt-2 mb-2 fs-5 text-white fw-bold " value="Submit" name="submit">
-  <p mr-5><i><mark><b>Already have an account?</b></mark>.....</i> <a href="views/login.php">login</a></p>
+  <p mr-5><i><mark><b>Already have an account?</b></mark>.....</i> <a href="views/login.php" class="fs-4">login</a></p>
 </form>
     
 </body>

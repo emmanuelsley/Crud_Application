@@ -22,7 +22,7 @@
     <label for="password" class="form-label text-danger fw-bold mt-0.5"><strong>password: </strong></label>
     <input type="password" name= "password" class="form-control" id="password"><br>
     <input type="submit" class="btn btn-warning fs-5 text-white fw-bold mb-3" value="Submit" name="submit">
-    <p class= ""><mark><i><b>Don't have account? </b></i></mark>......<a href="../register.crud.php">Sign up</a></p>
+    <p class= ""><mark><i><b>Don't have account? </b></i></mark>......<a href="../register.crud.php" class="fs-4">Sign up</a></p>
   </div>
   </div>
 </form>
