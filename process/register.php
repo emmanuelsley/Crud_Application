@@ -30,8 +30,8 @@ else{
 
     }else {
         $sql= "INSERT INTO users (first_name,user_name,email,password)
-        VALUES ('fname','uname','email','password')";
-        $result = mysqli_query($conn, $query);
+        VALUES ('$fname','$uname','$email','$password')";
+        $result = mysqli_query($conn, $sql);
 
         if($result){
             header('location:../views/login.php');

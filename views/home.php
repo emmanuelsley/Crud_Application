@@ -17,10 +17,10 @@ if(isset($_SESSION['user_id'])){
     <link rel="stylesheet" href="../css/bootstrap.min.css">
 </head>
 <body>
-<div class="container">
-                   <p>Welcome to sley website <?=$_SESSION['user_name']?></p>
+<div class="container my-4 text-center">
+                   <h1 class="text-info">Welcome to our  website <?=$_SESSION['user_name']?></h1>
                    <a href="../process/logout.php">
-                    <button class="btn btn-primary">log out</button>
+                    <button class="btn btn-primary mt-3">log out</button>
                    </a>
 
 <table class="table mt-5">
@@ -43,7 +43,7 @@ if(isset($_SESSION['user_id'])){
      <tr>
       <th scope="row"><?=$i++;?></th>
       <td><?=$user['first_name']?></td>
-      <td><?=$user['last_name']?></td>
+      <td><?=$user['user_name']?></td>
       <td><?=$user['email']?></td>
       <td>
       <button type="button" class="btn btn-primary">Edit</button>

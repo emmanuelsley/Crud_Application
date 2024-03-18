@@ -7,7 +7,7 @@
     <title>Login | form</title>
 </head>
 <body  class='container: w-25 pl-5 shadow  m-5 mx-auto g-3 '>
-<form action="../process/register.php" method="POST" class="mt-5 shadow bg-light" >
+<form action="../process/login.php" method="POST" class="mt-5 shadow bg-light" >
 <h1 ex-auto class="btn-info text-white fw-bold  ">Login</h1>
 <div  class="field">
   <div class="container"   ml-5 g-3>
