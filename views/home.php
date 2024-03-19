@@ -2,7 +2,7 @@
 session_start();
 include '../process/connection.php';
 if(isset($_SESSION['user_id'])){
-    $sql = "SELECT * FROM users WHERE id";
+    $sql = "SELECT * FROM users";
     $users = mysqli_query($conn ,$sql);
 
 ?>
@@ -46,7 +46,8 @@ if(isset($_SESSION['user_id'])){
       <td><?=$user['user_name']?></td>
       <td><?=$user['email']?></td>
       <td>
-      <button type="button" class="btn btn-primary">Edit</button>
+        <a href="Edit.php?id=<?=$user['id']?>">
+      <button type="button" class="btn btn-primary">Edit</button></a>
        <a href="../process/delete.php?id=<?=$user['id']?>"><button type="button" class="btn btn-danger">Delete</button></a>
 
       </td>
